@@ -1,0 +1,31 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    width: 185px;
+}
+  
+#auth-wrapper{
+    zoom: 1.2;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+#auth-wrapper>div{
+    height: 20px;
+}
+
+button{
+    animation: 5s ease 0s infinite normal none running selected;
+}

@@ -1,0 +1,26 @@
+#main-wrapper {
+    zoom: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    zoom: 1.2;
+    position: absolute;
+}
+
+#actions-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#actions-wrapper>div {
+    margin-top: 10px;
+}
+
+button {
+    width: 200px;
+}
+
+span {
+    text-transform: capitalize;
+}

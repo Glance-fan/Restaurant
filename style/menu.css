@@ -1,0 +1,30 @@
+#menu-wrapper {
+    zoom: 1;
+    width: 1055px;
+    left: calc(50% - 527.5px);
+}
+
+
+#menu-container,
+#order-container {
+    list-style: none;
+}
+
+#menu-container li::before {
+    content: "+ ";
+    color: #AAF000;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#order-container li::before {
+    content: "- ";
+    color: #C7007D;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}

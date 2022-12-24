@@ -1,0 +1,58 @@
+#receipt-wrapper {
+    position: absolute;
+    padding: 10px;
+
+    zoom: 1.2;
+    width: 300px;
+    top: calc(50% - 220px);
+    left: calc(50% - 135px);
+}
+
+#receipt-scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 350px;
+}
+
+#receipt-scrollable::-webkit-scrollbar {
+    width: 5px;
+    background: #303030;
+    border-radius: 16px;
+}
+
+#receipt-scrollable::-webkit-scrollbar-thumb {
+    background: linear-gradient(225.72deg, #FFAA00 0%, #E339A4 100%);
+    border-radius: 16px;
+}
+
+#receipt-wrapper>div:first-child {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 125px;
+}
+
+.ordered-elem{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+}

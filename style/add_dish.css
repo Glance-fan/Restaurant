@@ -1,0 +1,33 @@
+#new-dish-wrapper {
+    zoom: 1.2;
+    padding: 10px;
+
+    position: absolute;
+    top: calc(50% - 117.5px);
+    left: calc(50% - 132.5px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 180px;
+}
+
+form>div:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100px;
+}
+
+input, span {
+    width: 225px;
+}
+
+select {
+    width: 245px;
+}
